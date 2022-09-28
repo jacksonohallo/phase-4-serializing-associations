@@ -79,6 +79,7 @@ We can then add the desired attributes to the `director_serializer` file:
 class DirectorSerializer < ActiveModel::Serializer
   attributes :id, :name, :birthplace, :female_director
 end
+
 ```
 
 Now if you navigate to `/directors` or `/directors/:id` you will see that we're
